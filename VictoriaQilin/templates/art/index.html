@@ -1,0 +1,114 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Title</title>
+    <link rel="stylesheet" href="{% static 'css/pierwsza.css'%}" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="s1">
+      <main class="s1__main">
+        <nav>
+          <img
+            src="{% static 'img/shop_thumbnail.png'%}"
+            alt="shop_thumbnail"
+            class="shopThumb"
+          />
+          <img
+            src="{% static 'img/shop_text.png'%}"
+            alt="shop_text"
+            class="shopText"
+          />
+          <img
+            src="{% static 'img/bar_arrow_right.png'%}"
+            alt="nav_arrow"
+            class="bar_arrow_right"
+          />
+          <div class="pasek">
+            <img
+              src="{% static 'img/navbar.png'%}"
+              alt="navbar"
+              class="navbar"
+            />
+          </div>
+        </nav>
+        <div class="s1__bg">
+          <img class="bg__img s1__bg_img" src="{% static 'img/pierwsza.jpg'%}""
+          alt="Page Background">
+        </div>
+        <div class="logo">
+          <img
+            src="{% static 'img/V.png'%}"
+            alt="logo_V"
+            class="logo__letter --logo__letter_V"
+            id="logoV"
+          />
+          <img
+            src="{% static 'img/Q.png'%}"
+            alt="logo_Q"
+            class="logo__letter --logo__letter_Q"
+            id="logoQ"
+          />
+        </div>
+        <div class="s1_others">
+          <img
+            src="{% static 'img/welcome_text.png'%}"
+            alt=""
+            class="welcome_text"
+          />
+          <i class="fa fa-facebook-square fa-4x"></i>
+          <i class="fa fa-instagram fa-4x"></i>
+        </div>
+      </main>
+    </section>
+    <section class="s2">
+      <main class="s2__main">
+        <div class="s2__bg">
+          <div class="hover_area">
+            <div class="hover_area hover_area__text" id="picture_name">
+              ZAJEB MACHA
+            </div>
+            <div class="hover_area hover_area__text">
+              <h2>300 PLN</h2>
+              <h2>30 x 40</h2>
+            </div>
+            <div class="hover_area hover_area__bar">
+              <h1 class="hover_area__bar--text">SOLD</h1>
+            </div>
+          </div>
+          <img
+            class="bg__img s2__bg_img"
+            src="{% static 'img/main_picture.jpg'%}"
+          />
+        </div>
+      </main>
+    </section>
+    <section class="s3">
+      <main class="s3__main">
+        <div class="s3__bg">
+          <img
+            class="bg__img s3__bg_img"
+            src="{% static 'img/Doors_background.png'%}"
+          />
+        </div>
+      </main>
+    </section>
+    <section class="s4">
+      <main class="s4__main">
+        <div class="s4__bg">
+          <img
+            class="bg__img s4__bg_img"
+            src="{% static 'img/chair_background.jpg'%}"
+          />
+        </div>
+      </main>
+    </section>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+    <script src="{% static 'js/art.js'%}"></script>
+  </body>
+</html>
