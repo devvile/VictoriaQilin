@@ -30,7 +30,7 @@ gsap.fromTo(
   gallery_enter,
   { x: "-=1700", opacity: 0 },
   {
-    x: "300",
+    x: 350,
     opacity: 1,
     scrollTrigger: {
       trigger: "s3",
@@ -57,7 +57,7 @@ gsap.fromTo(
   gallery_gallery,
   { x: "+=1700", opacity: 0 },
   {
-    x: "-200",
+    x: -275,
     opacity: 1,
     scrollTrigger: {
       trigger: "s3",
