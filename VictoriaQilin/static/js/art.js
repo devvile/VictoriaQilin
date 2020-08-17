@@ -41,19 +41,6 @@ gsap.fromTo(
 );
 
 gsap.fromTo(
-  gallery_the,
-  { opacity: 0 },
-  {
-    opacity: 1,
-    scrollTrigger: {
-      trigger: "s3",
-      start: "top -80%",
-      scrub: 0.2,
-    },
-  }
-);
-
-gsap.fromTo(
   gallery_gallery,
   { x: "+=1700", opacity: 0 },
   {
