@@ -10,6 +10,8 @@ section {
 }
 body {
   height: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 .bar_arrow_right,
@@ -30,8 +32,9 @@ nav {
   width: 25vw;
 }
 
-.s1__main,
-.s2__main {
+.s1,
+.s2,
+.s4 {
   height: 100%;
   width: 100%;
   position: relative;
@@ -155,4 +158,20 @@ nav {
   top: 50vh;
   z-index: 10;
   opacity: 1;
+}
+.gallery__heading {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 60vh;
+  top: 30%;
+  left: 26%;
+}
+
+.gallery__text {
+  height: 20vh;
+  z-index: 10;
+  margin: 30px;
 }
