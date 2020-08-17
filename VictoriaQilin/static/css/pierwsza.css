@@ -9,7 +9,6 @@ section {
   width: 100vw;
 }
 body {
-  height: 100%;
   overflow-x: hidden;
   overflow-y: hidden;
 }
@@ -21,7 +20,8 @@ body {
 .pasek,
 .navbar,
 .shopThumb,
-.shopText {
+.shopText,
+.sociale__icon {
   visibility: hidden;
 }
 
@@ -35,7 +35,7 @@ nav {
 .s1,
 .s2,
 .s4 {
-  height: 100%;
+  height: 100vh;
   width: 100%;
   position: relative;
 }
@@ -97,12 +97,13 @@ nav {
 .sociale {
   position: absolute;
   display: flex;
-  left: 46%;
-  bottom: 30%;
+  left: 44.5%;
+  bottom: 26%;
 }
 
 .sociale__icon {
   margin: 10px;
+  height: 30px;
 }
 
 .shopThumb {
