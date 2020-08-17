@@ -61,8 +61,12 @@
             alt=""
             class="welcome_text"
           />
-          <i class="fa fa-facebook-square fa-4x"></i>
-          <i class="fa fa-instagram fa-4x"></i>
+          <div class="sociale">
+            <i
+              class="fa fa-facebook-square fa-4x sociale__fb sociale__icon"
+            ></i>
+            <i class="fa fa-instagram fa-4x sociale__insta sociale__icon"></i>
+          </div>
         </div>
       </main>
     </section>
@@ -91,9 +95,18 @@
     <section class="s3">
       <main class="s3__main">
         <div class="gallery__heading">
-          <img class="gallery__text" src="{% static 'img/Enter.png'%}" />
-          <img class="gallery__text" src="{% static 'img/The.png'%}" />
-          <img class="gallery__text" src="{% static 'img/Gallery.png'%}" />
+          <img
+            class="gallery__text gallery_enter"
+            src="{% static 'img/Enter.png'%}"
+          />
+          <img
+            class="gallery__text gallery_the"
+            src="{% static 'img/The.png'%}"
+          />
+          <img
+            class="gallery__text gallery_gallery"
+            src="{% static 'img/Gallery.png'%}"
+          />
         </div>
         <div class="s3__bg">
           <img

@@ -94,6 +94,17 @@ nav {
   cursor: pointer;
 }
 
+.sociale {
+  position: absolute;
+  display: flex;
+  left: 46%;
+  bottom: 30%;
+}
+
+.sociale__icon {
+  margin: 10px;
+}
+
 .shopThumb {
   position: absolute;
   top: 7vh;
@@ -173,5 +184,9 @@ nav {
 .gallery__text {
   height: 20vh;
   z-index: 10;
-  margin: 30px;
+  margin: 25px;
+}
+
+.gallery_the {
+  opacity: 0;
 }

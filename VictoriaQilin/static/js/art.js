@@ -10,13 +10,56 @@ const navbar = document.querySelector(".navbar");
 const arrowRight = document.querySelector(".bar_arrow_right");
 const shopThumb = document.querySelector(".shopThumb");
 const shopText = document.querySelector(".shopText");
+const s3 = document.querySelector(".s3");
 
 //ENTER GALLERY ELEMENTS
 
-const galleryHeadings = document.querySelectorAll("gallery__heading");
+const gallery_enter = document.querySelector(".gallery_enter");
+const gallery_the = document.querySelector(".gallery_the");
+const gallery_gallery = document.querySelector(".gallery_gallery");
 
 //ANIMATIONS GSAP
 
+gsap.fromTo(
+  gallery_enter,
+  { x: "-=1700", opacity: 0 },
+  {
+    x: "300",
+    opacity: 1,
+    scrollTrigger: {
+      trigger: "s3",
+      start: "top 40%",
+      scrub: 0.7,
+    },
+  }
+);
+
+gsap.fromTo(
+  gallery_the,
+  { opacity: 0 },
+  {
+    opacity: 1,
+    scrollTrigger: {
+      trigger: "s3",
+      start: "top -80%",
+      scrub: 0.2,
+    },
+  }
+);
+
+gsap.fromTo(
+  gallery_gallery,
+  { x: "+=1700", opacity: 0 },
+  {
+    x: "-200",
+    opacity: 1,
+    scrollTrigger: {
+      trigger: "s3",
+      start: "top 40%",
+      scrub: 0.7,
+    },
+  }
+);
 //SETUP
 TweenMax.set([logoV, logoQ, welcome_text, shopText, arrowRight], {
   visibility: "visible",
