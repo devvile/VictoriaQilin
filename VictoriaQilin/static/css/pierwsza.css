@@ -34,15 +34,20 @@ nav {
 
 .s1,
 .s2,
+.s3,
 .s4 {
   height: 100vh;
   width: 100%;
   position: relative;
+  background-color: rgb(211, 155, 164);
 }
+
 .s3 {
   height: 200%;
-  width: 100%;
-  position: relative;
+}
+
+.s3__bg_img {
+  height: 100%;
 }
 
 .bg__img {

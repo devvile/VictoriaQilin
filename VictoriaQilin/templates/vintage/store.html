@@ -1,14 +1,31 @@
+{%load static%}
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Store</title>
-</head>
-<body>
-
-<h3>
-    store
-</h3>
-
-</body>
+    <link rel="stylesheet" href="{% static 'css/store.css'%}" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="s1">
+      <main class="s1__main">
+        <h3>VINTAGE QILIN</h3>
+        <img class="wings_bg" src='{% static "img/vintage_wings.jpg"%}' />
+        <div class="sociale">
+          <i class="fa fa-facebook-square fa-4x sociale__fb sociale__icon"></i>
+          <i class="fa fa-instagram fa-4x sociale__insta sociale__icon"></i>
+        </div>
+      </main>
+    </section>
+    <section class="s2">
+      <main class="s2__main">
+        <h3>STORE DETAILS</h3>
+      </main>
+    </section>
+    <h3></h3>
+  </body>
 </html>
