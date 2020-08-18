@@ -1,0 +1,57 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Store</title>
+    <link rel="stylesheet" href="{% static 'css/store.css'%}" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rufina&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="s1">
+      <main class="s1__main">
+        <h3>VINTAGE QILIN</h3>
+        <img class="wings_bg" src='{% static "img/vintage_wings.jpg"%}' />
+        <div class="sociale">
+          <i class="fa fa-facebook-square fa-4x sociale__fb sociale__icon"></i>
+          <i class="fa fa-instagram fa-4x sociale__insta sociale__icon"></i>
+        </div>
+      </main>
+    </section>
+    <section class="s2">
+      <main class="s2__main">
+        <div class="shop-grid">
+          {%for ciuch in ciuchy%}
+          <div class="shop-grid__ciuch">
+            <a href="{% url 'detail' ciuch.id %}">
+              <div class="ciuch__img">
+                <img src="{{ciuch.main_img}}" class="ciuch__thumbnail" alt="" />
+              </div>
+            </a>
+            <div class="ciuch__name">{{ciuch.name}}</div>
+            <div class="ciuch__price">{{ciuch.price}}</div>
+            <div class="ciuch__size">Rozmiar: {{ciuch.size}}</div>
+          </div>
+
+          {%endfor%}
+        </div>
+      </main>
+    </section>
+    <section class="s3">
+      <main class="s3__main">
+        <img
+          class="bg__chair bg__img"
+          src="{% static 'img/chair_background.jpg'%}"
+        />
+      </main>
+    </section>
+    <h3></h3>
+  </body>
+</html>

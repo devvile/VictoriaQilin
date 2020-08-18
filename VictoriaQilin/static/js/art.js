@@ -41,19 +41,6 @@ gsap.fromTo(
 );
 
 gsap.fromTo(
-  gallery_the,
-  { opacity: 0 },
-  {
-    opacity: 1,
-    scrollTrigger: {
-      trigger: "s3",
-      start: "top -80%",
-      scrub: 0.2,
-    },
-  }
-);
-
-gsap.fromTo(
   gallery_gallery,
   { x: "+=1700", opacity: 0 },
   {
@@ -86,19 +73,22 @@ function unblock() {
     document.body.style.overflow = "auto";
   }, 4000);
 }
-
 //ANIM LANDING
-TweenMax.to(logoV, 1.5, { opacity: 1 });
-TweenMax.to(logoQ, 1.5, { opacity: 1, delay: 1 });
-TweenMax.to(welcome_text, 1.5, { opacity: 1, delay: 2 });
-TweenMax.to(navbar, 0.75, { x: 0, delay: 3 });
-TweenMax.to(shopThumb, 0.75, { x: -15, delay: 3.5, ease: "easeIn" });
-TweenMax.to(shopThumb, 0.2, { x: 40, delay: 4.15, ease: "easeInOut" });
-TweenMax.to(shopThumb, 0.3, { x: 0, delay: 4.3 });
-TweenMax.to(shopText, 0.5, { x: 0, delay: 4.8 });
-TweenMax.to(arrowRight, 0.5, { opacity: 1, delay: 5.3 });
-TweenMax.to([fbIcon, instaIcon], 0.5, { x: 0, delay: 5.5, ease: "easeOut" });
+
+function frontAnimate() {
+  TweenMax.to(logoV, 1.5, { opacity: 1, delay: 0.4 });
+  TweenMax.to(logoQ, 1.5, { opacity: 1, delay: 1.2 });
+  TweenMax.to(welcome_text, 1.5, { opacity: 1, delay: 2 });
+  TweenMax.to(navbar, 0.75, { x: 0, delay: 3 });
+  TweenMax.to(shopThumb, 0.75, { x: -15, delay: 3.5, ease: "easeIn" });
+  TweenMax.to(shopThumb, 0.2, { x: 40, delay: 4.15, ease: "easeInOut" });
+  TweenMax.to(shopThumb, 0.3, { x: 0, delay: 4.3 });
+  TweenMax.to(shopText, 0.5, { x: 0, delay: 4.8 });
+  TweenMax.to(arrowRight, 0.5, { opacity: 1, delay: 5.3 });
+  TweenMax.to([fbIcon, instaIcon], 0.5, { x: 0, delay: 5.5, ease: "easeOut" });
+}
 
 //SCROLL ANIM GALLERY
-
+$("html, body").animate({ scrollTop: 0 }, "fast");
+$(document).ready(frontAnimate());
 unblock();
