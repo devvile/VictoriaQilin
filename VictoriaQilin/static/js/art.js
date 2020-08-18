@@ -89,7 +89,6 @@ function frontAnimate() {
 }
 
 //SCROLL ANIM GALLERY
+$("html, body").animate({ scrollTop: 0 }, "fast");
 $(document).ready(frontAnimate());
-window.onbeforeunload = () => $("html, body").animate({ scrollTop: 0 }, "fast");
-$(document).on("click", $("html, body").animate({ scrollTop: 0 }, "fast"));
 unblock();
