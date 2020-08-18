@@ -186,5 +186,5 @@ nav {
   height: 20vh;
   z-index: 10;
   margin: 25px;
-  cursor: crosshair;
+  cursor: pointer;
 }
