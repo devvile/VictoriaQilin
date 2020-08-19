@@ -46,13 +46,21 @@ nav {
   height: 200%;
 }
 
-.s3__bg_img {
-  height: 100%;
-}
-
-.bg__img {
+.s1__bg,
+.s2__bg,
+.s4__bg {
+  background-size: cover;
+  background-position: center center;
   height: 100%;
   width: 100%;
+}
+
+.s1__bg {
+  background: url(/static/img/main.jpg);
+}
+
+.s3__bg_img {
+  height: 100%;
 }
 
 .--logo__letter_Q {
