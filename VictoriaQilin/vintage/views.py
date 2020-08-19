@@ -7,4 +7,4 @@ def store_main(request):
     return render(request,'vintage/store.html', kwargs)
 
 def detail(request,id):
-    return render(request,'vintage/detail.html'
+    return render(request,'vintage/detail.html')
