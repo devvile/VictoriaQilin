@@ -1,10 +1,23 @@
+{%load static%}
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>{{ciuch.name}}</title>
+    <link rel="stylesheet" href="{% static 'css/detail.css'%}" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rufina&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section>
+      <div class="ciuch__photo">
+        <img src="/{{ciuch.main_img}}" class="ciuch__thumbnail" alt="" />
+      </div>
+      <div class="ciuch__details">
+        <h1>{{ciuch.name}}</h1>
+      </div>
+    </section>
+  </body>
 </html>
