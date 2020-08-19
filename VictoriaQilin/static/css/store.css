@@ -14,6 +14,10 @@ h3 {
 .s2 {
   height: 110vh;
 }
+.s3 {
+  height: 100vh;
+}
+
 .s1__main,
 .s2__main,
 .s3__main {
@@ -22,26 +26,27 @@ h3 {
 }
 
 section {
-  background-color: rgb(235, 155, 168);
+  background-color: rgb(246, 183, 204);
   height: 100vh;
   width: 100vw;
 }
 
-.wings_bg {
-  height: 60vh;
-  width: 60vw;
+.Heading_Qilin {
+  width: 70%;
+  position: absolute;
+  left: 15%;
+  z-index: 5;
 }
 
-.bg__chair {
-  height: 100%;
-  width: 100%;
+.wings_bg {
+  width: 40vw;
 }
 
 .s1__main {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: space-evenly;
+  align-items: center;
 }
 
 .shop-grid {
@@ -68,16 +73,42 @@ section {
 .ciuch__thumbnail {
   height: 220px;
   width: 220px;
-  border: 20px solid whitesmoke;
+  border: 20px solid rgba(255, 255, 255, 0.53);
   border-radius: 10px;
   margin: 2px;
   cursor: pointer;
 }
 .ciuch__price {
-  background-color: whitesmoke;
+  background-color: rgba(255, 255, 255, 0.53);
   padding: 5px;
   width: 70%;
   border-radius: 15px;
   text-align: center;
   margin: 5px;
+}
+
+.contact_texts {
+  position: absolute;
+  left: 10%;
+  top: 10%;
+  height: 80%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 6;
+}
+
+.Heading_Qilin--bottom {
+  position: absolute;
+  left: 5%;
+  width: 90%;
+}
+
+.bg__img_container {
+  background: url(/static/img/chair_background.jpg);
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
 }
