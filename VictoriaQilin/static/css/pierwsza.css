@@ -106,9 +106,9 @@ nav {
 
 .welcome_text {
   position: absolute;
-  left: 26%;
-  bottom: 10%;
-  height: 11vh;
+  right: 0;
+  width: 50vw;
+  bottom: 7%;
   opacity: 0;
 }
 .pasek,
