@@ -90,17 +90,17 @@ nav {
 
 .--logo__letter_Q {
   position: absolute;
-  left: 49.5%;
-  top: 36%;
-  height: 23vh;
+  right: 14%;
+  top: 45%;
+  height: 20vh;
   opacity: 0;
 }
 
 .--logo__letter_V {
   position: absolute;
-  left: 40%;
-  top: 30%;
-  height: 20vh;
+  right: 20%;
+  top: 36%;
+  height: 17vh;
   opacity: 0;
 }
 
@@ -135,8 +135,8 @@ nav {
 .sociale {
   position: absolute;
   display: flex;
-  left: 44.5%;
-  bottom: 26%;
+  left: 40.5%;
+  bottom: 16%;
 }
 
 .sociale__icon {
