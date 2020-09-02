@@ -7,10 +7,6 @@ def store_main(request):
     return render(request,'vintage/store.html', kwargs)
 
 def detail(request,id):
-<<<<<<< HEAD
-    return render(request,'vintage/detail.html')
-=======
     ciuch = Ciuch.objects.get(pk=id)
     kwargs = {'ciuch':ciuch}
     return render(request,'vintage/detail.html',kwargs)
->>>>>>> master
