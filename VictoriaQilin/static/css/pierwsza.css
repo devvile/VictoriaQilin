@@ -51,6 +51,7 @@ nav {
 .s3__main,
 .s4__main {
   height: 100%;
+  width: 100%;
 }
 
 .s1__bg {
@@ -58,7 +59,6 @@ nav {
   background-size: cover;
   background-position: center center;
   height: 100%;
-  width: 100%;
 }
 
 .s2__bg {
@@ -90,25 +90,25 @@ nav {
 
 .--logo__letter_Q {
   position: absolute;
-  left: 49.5%;
-  top: 36%;
-  height: 23vh;
+  right: 14%;
+  top: 45%;
+  height: 20vh;
   opacity: 0;
 }
 
 .--logo__letter_V {
   position: absolute;
-  left: 40%;
-  top: 30%;
-  height: 20vh;
+  right: 20%;
+  top: 36%;
+  height: 17vh;
   opacity: 0;
 }
 
 .welcome_text {
   position: absolute;
-  left: 26%;
-  bottom: 10%;
-  height: 11vh;
+  right: 0;
+  width: 50vw;
+  bottom: 7%;
   opacity: 0;
 }
 .pasek,
@@ -135,8 +135,8 @@ nav {
 .sociale {
   position: absolute;
   display: flex;
-  left: 44.5%;
-  bottom: 26%;
+  left: 40.5%;
+  bottom: 16%;
 }
 
 .sociale__icon {
