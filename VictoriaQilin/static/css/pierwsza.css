@@ -132,11 +132,18 @@ nav {
   cursor: pointer;
 }
 
+.vixa-photo {
+  position: absolute;
+  height: 58vh;
+  left: 14%;
+  top: 18%;
+}
+
 .sociale {
   position: absolute;
   display: flex;
   left: 40.5%;
-  bottom: 16%;
+  bottom: 6%;
 }
 
 .sociale__icon {
