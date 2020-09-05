@@ -5,16 +5,16 @@ gsap.registerPlugin(ScrollTrigger);
 
 //FIRST PAGE
 
-const logoV = document.getElementById("logoV");
-const logoQ = document.getElementById("logoQ");
-const vixiaQ = document.getElementById("vixiak");
-const welcome_text = document.querySelector(".welcome_text");
-const navbar = document.querySelector(".navbar");
-const arrowRight = document.querySelector(".bar_arrow_right");
-const shopThumb = document.querySelector(".shopThumb");
-const shopText = document.querySelector(".shopText");
-const instaIcon = document.querySelector(".sociale__insta");
-const fbIcon = document.querySelector(".sociale__fb");
+const logoV = document.getElementById("logoV"),
+  logoQ = document.getElementById("logoQ"),
+  vixiaQ = document.getElementById("vixiak"),
+  welcome_text = document.querySelector(".welcome_text"),
+  navbar = document.querySelector(".navbar"),
+  arrowRight = document.querySelector(".bar_arrow_right"),
+  shopThumb = document.querySelector(".shopThumb"),
+  shopText = document.querySelector(".shopText"),
+  instaIcon = document.querySelector(".sociale__insta"),
+  fbIcon = document.querySelector(".sociale__fb");
 
 //OTHERS
 const s3 = document.querySelector(".s3");
