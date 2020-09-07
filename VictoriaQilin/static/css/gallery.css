@@ -7,6 +7,7 @@
 .s1 {
   height: 220vh;
   width: 100vw;
+  position: relative;
 }
 
 .s2 {
@@ -16,6 +17,38 @@
 
 .s1_bg {
   height: 100%;
-  background: url(/static/img/touch.png);
+  background: url(/static/img/touchtheart-2.jpg);
   background-size: cover;
+  background-position: center;
+}
+
+.touch_text {
+  position: absolute;
+  left: 11vw;
+  top: 26vh;
+  width: 38vw;
+}
+
+.the_text {
+  position: absolute;
+  right: 8vw;
+  top: 45vh;
+  width: 30vw;
+}
+
+.art_text {
+  position: absolute;
+  left: 20vw;
+  bottom: 15vh;
+  width: 30vw;
+}
+
+.s2 {
+  background-color: rgba(34, 32, 32, 1);
+}
+
+@media (max-width: 700px) {
+  .s1_bg {
+    background-size: auto;
+  }
 }

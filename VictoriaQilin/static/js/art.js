@@ -21,9 +21,9 @@ const s3 = document.querySelector(".s3");
 
 //ENTER GALLERY ELEMENTS
 
-const gallery_enter = document.querySelector(".gallery_enter");
-const gallery_the = document.querySelector(".gallery_the");
-const gallery_gallery = document.querySelector(".gallery_gallery");
+const gallery_enter = document.querySelector(".gallery_enter"),
+  gallery_the = document.querySelector(".gallery_the"),
+  gallery_gallery = document.querySelector(".gallery_gallery");
 
 //SETUP
 TweenMax.set(
