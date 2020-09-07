@@ -241,17 +241,16 @@ nav {
   top: 50px;
   left: 10vw;
   width: 80vw;
-  height: 80vh;
+  height: 60vh;
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-direction: column;
-  font-family: "Rufina", serif;
+  font-family: "Amatic SC", cursive;
   color: whitesmoke;
   font-size: 1.4rem;
   font-weight: 100;
-  border: 3px solid black;
-  z-index: 10;
+  letter-spacing: 0.25em;
   padding: 10vh 0 0 0;
 }
 
@@ -265,15 +264,23 @@ nav {
 }
 
 .--wanna_text {
-  width: 30vw;
+  position: relative;
+  top: 2%;
   text-align: center;
+  color: black;
 }
 .--would_text {
+  position: relative;
   width: 70vw;
   text-align: center;
 }
-.--contact_me--img {
-  width: 23vw;
+.--contact_me--txt {
+  position: relative;
+  color: black;
+  font-size: 1.8em;
+  left: 28%;
+  top: 6vh;
+  letter-spacing: 0.3rem;
 }
 
 .s4__contact_details {
