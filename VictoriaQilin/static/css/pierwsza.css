@@ -235,3 +235,57 @@ nav {
   margin: 25px;
   cursor: pointer;
 }
+
+.s4__content {
+  position: absolute;
+  top: 50px;
+  left: 10vw;
+  width: 80vw;
+  height: 80vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Rufina", serif;
+  color: whitesmoke;
+  font-size: 1.4rem;
+  font-weight: 100;
+  border: 3px solid black;
+  z-index: 10;
+  padding: 10vh 0 0 0;
+}
+
+.s4__elem {
+  background-color: rgba(19, 19, 19, 0.38);
+  padding: 20px;
+  border-radius: 40px;
+}
+
+.--contact_me {
+}
+
+.--wanna_text {
+  width: 30vw;
+  text-align: center;
+}
+.--would_text {
+  width: 70vw;
+  text-align: center;
+}
+.--contact_me--img {
+  width: 23vw;
+}
+
+.s4__contact_details {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  width: 94vw;
+  margin: 0 20px 0 0;
+}
+
+.contact_details__contact_item {
+  position: relative;
+  margin: 0;
+  font-size: 1.2rem;
+}

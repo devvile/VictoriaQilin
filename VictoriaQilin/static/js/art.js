@@ -5,25 +5,25 @@ gsap.registerPlugin(ScrollTrigger);
 
 //FIRST PAGE
 
-const logoV = document.getElementById("logoV");
-const logoQ = document.getElementById("logoQ");
-const vixiaQ = document.getElementById("vixiak");
-const welcome_text = document.querySelector(".welcome_text");
-const navbar = document.querySelector(".navbar");
-const arrowRight = document.querySelector(".bar_arrow_right");
-const shopThumb = document.querySelector(".shopThumb");
-const shopText = document.querySelector(".shopText");
-const instaIcon = document.querySelector(".sociale__insta");
-const fbIcon = document.querySelector(".sociale__fb");
+const logoV = document.getElementById("logoV"),
+  logoQ = document.getElementById("logoQ"),
+  vixiaQ = document.getElementById("vixiak"),
+  welcome_text = document.querySelector(".welcome_text"),
+  navbar = document.querySelector(".navbar"),
+  arrowRight = document.querySelector(".bar_arrow_right"),
+  shopThumb = document.querySelector(".shopThumb"),
+  shopText = document.querySelector(".shopText"),
+  instaIcon = document.querySelector(".sociale__insta"),
+  fbIcon = document.querySelector(".sociale__fb");
 
 //OTHERS
 const s3 = document.querySelector(".s3");
 
 //ENTER GALLERY ELEMENTS
 
-const gallery_enter = document.querySelector(".gallery_enter");
-const gallery_the = document.querySelector(".gallery_the");
-const gallery_gallery = document.querySelector(".gallery_gallery");
+const gallery_enter = document.querySelector(".gallery_enter"),
+  gallery_the = document.querySelector(".gallery_the"),
+  gallery_gallery = document.querySelector(".gallery_gallery");
 
 //SETUP
 TweenMax.set(
