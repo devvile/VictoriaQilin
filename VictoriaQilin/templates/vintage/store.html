@@ -15,8 +15,23 @@
     />
   </head>
   <body>
+    <main>
+      <nav>
+        <a href="{%url 'index'%}">
+        <div class="navbar">   <img
+          src="{% static 'img/bar_arrow_right.png'%}"
+          alt="nav_arrow"
+          class="bar_arrow_right"
+        />
+        <img
+        src="{% static 'img/Qilins_Art.png'%}"
+        alt="nav_arrow"
+        class="bar_art"/>
+        </div>
+      </a>
+      </nav>
     <section class="s1">
-      <main class="s1__main">
+      <div class="welcome-contents">
         <div class="Heading_text">
           <img
             src="{% static 'img/VintageQilin.png'%}"
@@ -31,10 +46,9 @@
           <i class="fa fa-facebook-square fa-4x sociale__fb sociale__icon"></i>
           <i class="fa fa-instagram fa-4x sociale__insta sociale__icon"></i>
         </div>
-      </main>
+      </div>
     </section>
     <section class="s2">
-      <main class="s2__main">
         <div class="shop-grid">
           {%for ciuch in ciuchy%}
           <div class="shop-grid__ciuch">
@@ -50,7 +64,6 @@
 
           {%endfor%}
         </div>
-      </main>
     </section>
     <section class="s3">
       <main class="s3__main">
@@ -71,8 +84,9 @@
           </div>
         </div>
         <div class="bg__img bg__img_container"></div>
+      </section>
       </main>
-    </section>
+
     <h3></h3>
   </body>
 </html>

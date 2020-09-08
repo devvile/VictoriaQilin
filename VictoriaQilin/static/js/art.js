@@ -50,9 +50,9 @@ function frontAnimate() {
   TweenMax.to(shopThumb, 0.3, { x: 0, delay: 3.1 });
   TweenMax.to(shopText, 0.5, { x: 0, delay: 3.4, ease: "easeOut" });
   TweenMax.to(arrowRight, 0.5, { opacity: 1, delay: 3.8 });
-  TweenMax.to(vixiaQ, 0.5, { opacity: 1, x: 0, delay: 4.0 });
-  TweenMax.to([fbIcon, instaIcon], 0.5, { x: 0, delay: 4.5, ease: "easeOut" });
-  TweenMax.to(welcome_text, 2.8, { opacity: 1, delay: 5.0 });
+  TweenMax.to([fbIcon, instaIcon], 0.5, { x: 0, delay: 4.0, ease: "easeOut" });
+  TweenMax.to(welcome_text, 0.5, { opacity: 1, delay: 4.5 });
+  TweenMax.to(vixiaQ, 0.5, { opacity: 1, x: 0, delay: 5.0 });
 }
 
 //ANIMATIONS GSAP
