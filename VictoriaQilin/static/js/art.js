@@ -37,8 +37,7 @@ TweenMax.set([navbar, shopThumb, shopText], {
   x: 430,
 });
 TweenMax.set(instaIcon, { x: 1000 });
-TweenMax.set(fbIcon, { x: -1000 });
-TweenMax.set(vixiaQ, { x: -1000 });
+TweenMax.set([fbIcon, vixiaQ], { x: -1000 });
 
 //ANIM LANDING
 
@@ -46,14 +45,14 @@ function frontAnimate() {
   TweenMax.to(logoV, 1.5, { opacity: 1, delay: 0.4 });
   TweenMax.to(logoQ, 1.5, { opacity: 1, delay: 1.2 });
   TweenMax.to(navbar, 0.75, { x: 0, delay: 2.0 });
-  TweenMax.to(shopThumb, 0.75, { x: -15, delay: 2.5, ease: "easeIn" });
-  TweenMax.to(shopThumb, 0.2, { x: 40, delay: 3.15, ease: "easeInOut" });
-  TweenMax.to(shopThumb, 0.3, { x: 0, delay: 3.3 });
-  TweenMax.to(shopText, 0.5, { x: 0, delay: 3.5, ease: "easeOut" });
-  TweenMax.to(arrowRight, 0.5, { opacity: 1, delay: 4.1 });
-  TweenMax.to(vixiaQ, 0.7, { opacity: 1, x: 0, delay: 4.5 });
-  TweenMax.to([fbIcon, instaIcon], 0.5, { x: 0, delay: 4.8, ease: "easeOut" });
-  TweenMax.to(welcome_text, 2.8, { opacity: 1, delay: 5.5 });
+  TweenMax.to(shopThumb, 0.75, { x: -15, delay: 2.4, ease: "easeIn" });
+  TweenMax.to(shopThumb, 0.2, { x: 40, delay: 3.0, ease: "easeInOut" });
+  TweenMax.to(shopThumb, 0.3, { x: 0, delay: 3.1 });
+  TweenMax.to(shopText, 0.5, { x: 0, delay: 3.4, ease: "easeOut" });
+  TweenMax.to(arrowRight, 0.5, { opacity: 1, delay: 3.8 });
+  TweenMax.to(vixiaQ, 0.5, { opacity: 1, x: 0, delay: 4.0 });
+  TweenMax.to([fbIcon, instaIcon], 0.5, { x: 0, delay: 4.5, ease: "easeOut" });
+  TweenMax.to(welcome_text, 2.8, { opacity: 1, delay: 5.0 });
 }
 
 //ANIMATIONS GSAP
