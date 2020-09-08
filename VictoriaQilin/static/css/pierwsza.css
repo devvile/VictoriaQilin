@@ -7,7 +7,10 @@
 section {
   height: 100vh;
   width: 100vw;
+  position: relative;
+  background-color: rgb(211, 155, 164);
 }
+
 body {
   overflow-x: hidden;
   overflow-y: hidden;
@@ -25,40 +28,14 @@ body {
   visibility: hidden;
 }
 
-nav {
-  position: absolute;
-  right: 0;
-  height: 10vh;
-  width: 25vw;
-}
-
-.s1,
-.s2,
-.s4 {
-  height: 100vh;
-  width: 100%;
-  position: relative;
-  background-color: rgb(211, 155, 164);
-}
-
-.s3 {
-  position: relative;
-  height: 200vh;
-}
-
-.s1__main,
-.s2__main,
-.s3__main,
-.s4__main {
-  height: 100%;
-  width: 100%;
-}
+/* SECTIONS BG*/
 
 .s1__bg {
   background: url(/static/img/main.jpg);
   background-size: cover;
   background-position: center center;
   height: 100%;
+  width: 100%;
 }
 
 .s2__bg {
@@ -82,10 +59,15 @@ nav {
   background-size: cover;
   background-position: center center;
   height: 100%;
+  width: 100%;
 }
+/* SECTION I - Welcome*/
 
-.s3__bg_img {
-  height: 100%;
+nav {
+  position: absolute;
+  right: 0;
+  height: 10vh;
+  width: 25vw;
 }
 
 .--logo__letter_Q {
@@ -119,6 +101,7 @@ nav {
   height: 12vh;
   width: 25vw;
   cursor: pointer;
+  z-index: 2;
 }
 
 .bar_arrow_right {
@@ -128,7 +111,7 @@ nav {
   top: 9.5vh;
   right: 1vw;
   bottom: 0;
-  z-index: 2;
+  z-index: 3;
   cursor: pointer;
 }
 
@@ -149,7 +132,7 @@ nav {
 }
 
 .sociale__icon {
-  margin: 10px;
+  margin: 50px 20px;
   height: 30px;
 }
 
@@ -168,6 +151,8 @@ nav {
   right: 3vw;
   z-index: 4;
 }
+
+/* SECTION II - Art preview */
 
 .hover_area {
   position: absolute;
@@ -218,6 +203,18 @@ nav {
   z-index: 10;
   opacity: 1;
 }
+
+/* SECTION III - Enter the gallery */
+
+.s3__bg_img {
+  height: 100%;
+}
+
+.s3 {
+  position: relative;
+  height: 200vh;
+}
+
 .gallery__heading {
   position: absolute;
   display: flex;
@@ -235,6 +232,8 @@ nav {
   margin: 25px;
   cursor: pointer;
 }
+
+/* SECTION IV - CONTACT */
 
 .s4__content {
   position: absolute;
@@ -259,10 +258,6 @@ nav {
   padding: 20px;
   border-radius: 40px;
 }
-
-.--contact_me {
-}
-
 .--wanna_text {
   position: relative;
   top: 2%;
