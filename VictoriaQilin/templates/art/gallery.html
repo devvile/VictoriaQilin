@@ -30,7 +30,11 @@
         <img src="{% static 'img/The_2.png'%}" alt="The" class="the_text" />
         <img src="{% static 'img/ART.png'%}" alt="art" class="art_text" />
       </section>
-      <section class="s2"></section>
+      <section class="s2">
+        <div class="gallery_container">
+          {%for painting in paintings%} {{painting.name}} {%endfor%}
+        </div>
+      </section>
       <section class="s3">
         <div class="s3__bg">
           <div class="s3__content">
